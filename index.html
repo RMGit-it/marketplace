@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Organic Free Range Dog Biscuits</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Welcome to Peace Biscuits</h1>
+      <form id="dog">
+
+        <div class="form-group">
+          <label for="name">Enter your doggo's name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+
+        <p>Bag size:</p>
+        <select class="form-control" id="bag-size">
+          <option value="1">Small</option>
+          <option value="2">Medium</option>
+          <option value="3">Large</option>
+        </select>
+
+        <p>Protein</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="protein" value="chicken" checked>
+            Chicken
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="protein" value="armadillo">
+            Armadillo
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="protein" value="narwhal">
+            Narwhal
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="delivery">Desired Delivery Date:</label>
+          <input id="delivery" class="form-control" type="date">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      
+      <div id="receipt">
+        <p><span class="name"></span>, you will get your <span class="bag-size"></span> bag of <span class="protein"></span> biscuits! It will be at your doorstep on <span class="delivery"></span>. Thank you and enjoy!</p>
+      </div>
+    </div>
+</body>
+</html>
