@@ -1,10 +1,10 @@
 $(document).ready(function() {
-  console.log("is this working?");
+  console.log("WTF");
   $("form#dog").submit(function(event) {
     console.log("is this working?");
     const name = $("input#name").val();
     const size = $("input#bag-size").val();
-    const protein = $("input:radio[name=protein]: checked").val();
+    const protein = $("input:radio[name=protein]:checked").val();
     const delivery = $("input#delivery").val();
 
     $(".name").text(name);
