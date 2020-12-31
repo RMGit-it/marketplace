@@ -1,5 +1,4 @@
 # marketplace
-# calculator-1
 ### _This project is not in a complete or portfolio ready state, and should not be considered representational of professional work._<br><br>
 [Epicodus](https://www.epicodus.com/) - Introduction to Programming - Week 02 - Lesson 50<br><br>
 Initialization Date: 2020-10-21
